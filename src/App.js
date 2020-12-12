@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Pokedex from './Pokedex';
+import Pokegame from './Pokegame';
 import './App.css';
 
 class App extends Component {
@@ -12,7 +12,8 @@ class App extends Component {
           type="fire"
           exp={62}
         /> */}
-        <Pokedex />
+        {/* <Pokedex /> */}
+        <Pokegame />
       </div>
     );
   }
